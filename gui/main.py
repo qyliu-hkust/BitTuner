@@ -139,7 +139,7 @@ class BitTunerApp(App):
                                         })# 添加横线
         explore_container.append(horizontal_line)  # 将横线添加到数据探索容器
         dataset_selector = gui.DropDown.new_from_list(
-            ('SIFT1B', 'Deep1B', 'other datasets'),
+            ('SIFT1B', 'Deep1B', 'AUDIO', 'CCNews', 'Clueweb', 'Uniform', 'Normal'),
             style={
                 'width': '95%',  # 宽度设置为 80%
                 'height': '40px',  # 高度设置为 30px
